@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="game.js"></script>
+    </head>
+    <body onload="onLoad()">
+        <img src="board.png" style="position: absolute; height: 500px; width: 500px; z-index: -1;">
+        <button id="tl" onclick="topLeft()" style="height: 100px; width: 100px; margin-left: 40px; margin-top: 45px;"> </button>
+        <button id="tm" onclick="topMid()" style="height: 100px; width: 100px; margin-left: 55px; margin-top: 45px;"> </button>
+        <button id="tr" onclick="topRight()" style="height: 100px; width: 100px; margin-left: 50px; margin-top: 45px;"> </button>
+        <br>
+        <button id="ml" onclick="midLeft()" style="height: 100px; width: 100px; margin-left: 40px; margin-top: 55px;"> </button>
+        <button id="mm" onclick="midMid()" style="height: 100px; width: 100px; margin-left: 55px; margin-top: 55px;"> </button>
+        <button id="mr" onclick="midRight()" style="height: 100px; width: 100px; margin-left: 50px; margin-top: 55px;"> </button>
+        <br>
+        <button id="bl" onclick="bottomLeft()" style="height: 100px; width: 100px; margin-left: 40px; margin-top: 55px;"> </button>
+        <button id="bm" onclick="bottomMid()" style="height: 100px; width: 100px; margin-left: 55px; margin-top: 55px;"> </button>
+        <button id="br" onclick="bottomRight()" style="height: 100px; width: 100px; margin-left: 50px; margin-top: 55px;"> </button>
+        <h1 id="result" style="color: red"></h1>
+        <br>
+        <p id="info" style="margin-top: 100px;"></p>
+    </body>
+</html>
